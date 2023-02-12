@@ -1,6 +1,7 @@
-def main():
-    pass
+from funcs import addit, subtracted
 
 
 if __name__ == "__main__":
-    main()
+
+    total_p = addit(4, 2)
+    total_m = subtracted(7, 3)
